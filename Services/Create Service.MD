@@ -24,7 +24,7 @@ spec:
       - name: nginx
         image: nginx:1.16
         ports:
-        - containerPort:8080
+        - containerPort: 8080
 
 
 # Step-2: Create Service
