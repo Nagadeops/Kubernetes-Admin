@@ -1,0 +1,17 @@
+# kubectl commands
+  kubectl get nodes
+  kubectl get pod
+  kubectl get services
+  kubectl create deployment nginx-depl --image=nginx
+  kubectl get deployment
+  kubectl get replicaset
+  kubectl edit deployment nginx-depl
+
+# Debugging
+  kubectl logs {pod-name}
+  kubectl exec -it {pod-name} -- bin/bash
+
+# Delete pods or deployment
+  kubectl delete pod (pod name)
+  kubectl delete -f nginx-deployment.yaml
+  
